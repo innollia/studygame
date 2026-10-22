@@ -1,0 +1,581 @@
+{
+  "start_date": "2026-10-23",
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-23",
+      "week": 1,
+      "theme": "전체 지도 만들기 — CMS.608 & K-MOOC 구조 파악",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 Game Design 홈",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+          "note": "강의 계획표(Syllabus)와 전체 주차 구성을 훑어본다.",
+          "login_required": false
+        },
+        {
+          "title": "K-MOOC 게임컨셉디자인 (계명대)",
+          "url": "https://www.kmooc.kr/view/course/detail/21313",
+          "note": "2027-01-31까지 운영. 수강신청 후 1~15주차 목차를 확인한다.",
+          "login_required": true
+        }
+      ],
+      "tasks": {
+        "common": "디스코드 핸섬가이즈에 모여 '이번 3주 목표는 완강이 아니라 전체 지도 그리기'임을 합의하고, CMS.608 홈과 K-MOOC 목차를 함께 훑는다.",
+        "innollia": "CMS.608 강의 계획표에서 핵심 주제(메커니즘, 의미 있는 선택, MDA, 플레이테스트)가 몇 주차에 나오는지 목차 초안을 노트에 정리한다.",
+        "pai": "K-MOOC 게임컨셉디자인 수강신청을 완료하고, 15주 목차 중 가장 흥미로운 주차 3개를 골라 디스코드에 공유한다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 2,
+      "date": "2026-10-24",
+      "week": 1,
+      "theme": "게임 메커니즘과 의미 있는 선택 (CMS.608)",
+      "minutes": 90,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 Game Design 홈",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+          "note": "강의 자료·영상 중 '게임 메커니즘/의미 있는 선택' 주제를 골라 본다.",
+          "login_required": false
+        },
+        {
+          "title": "Game Design Concepts (Ian Schreiber)",
+          "url": "https://gamedesignconcepts.wordpress.com/",
+          "note": "게임 정의와 규칙·의미 있는 선택(Decisions) 기초 설명 참고.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.608에서 '게임 메커니즘과 의미 있는 선택' 관련 강의 또는 자료 1개를 같이 고르고 시청·열람한 뒤 핵심 용어 5개를 추린다.",
+        "innollia": "핵심 용어 5개(예: 규칙, 메커니즘, 의미 있는 선택, 피드백 루프, 목표)를 자기 말로 정의하고 실제 게임 예시를 하나씩 붙인다.",
+        "pai": "핵심 용어 5개를 한 줄씩 쉬운 말로 적고, 평소 즐겨 하는 게임에서 '중요한 선택'이 일어나는 순간 1가지를 적어 공유한다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 3,
+      "date": "2026-10-25",
+      "week": 1,
+      "theme": "게임 분석 1회차 (A1) — 기본 루프와 선택 찾기",
+      "minutes": 90,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 과제·학생작품",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/pages/assignments-and-student-work/",
+          "note": "대학 수업에서 게임을 어떤 관점으로 분석·비평하는지 참고한다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "같이 분석할 가벼운 게임 1개를 골라 20분 동안 함께(또는 각자) 플레이한 뒤, 각자 분석 문서를 작성하고 디스코드에서 15분간 비교한다.",
+        "innollia": "templates/analysis-guide.md 를 보고 백지 상태에서 핵심 루프, 선택과 결과, 내 게임에 가져올 것 1개를 순서대로 작성한다.",
+        "pai": "templates/pai-worksheet.md 를 복사해 빈칸과 질문 8개를 채우며 플레이어가 반복하는 행동과 중요한 선택을 정리한다."
+      },
+      "analysis_session": true
+    },
+    {
+      "day": 4,
+      "date": "2026-10-26",
+      "week": 1,
+      "theme": "장르 분석과 메커니즘 기초 (K-MOOC)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "K-MOOC 게임컨셉디자인 (계명대)",
+          "url": "https://www.kmooc.kr/view/course/detail/21313",
+          "note": "앞부분(장르 분석·메커니즘) 강의 영상 1~2개 시청.",
+          "login_required": true
+        },
+        {
+          "title": "K-MOOC 게임기획실무 (참고용)",
+          "url": "https://www.kmooc.kr/view/course/detail/17793",
+          "note": "종료 강의이나 청강·강의개요 확인이 가능한지 살펴본다.",
+          "login_required": true
+        }
+      ],
+      "tasks": {
+        "common": "K-MOOC 게임컨셉디자인 앞부분(장르 분석·메커니즘) 영상 1~2개를 시청하고 장르별 핵심 규칙 차이를 이야기한다.",
+        "innollia": "한국어 강의에서 쓰는 기획 용어와 MIT CMS.608에서 본 영어 용어를 짝지어 정리하고, 장르 분류 기준을 메모한다.",
+        "pai": "오늘 본 강의에서 나온 게임 장르 2개를 골라, 각 장르가 플레이어에게 주는 재미가 어떻게 다른지 3줄로 적는다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 5,
+      "date": "2026-10-27",
+      "week": 1,
+      "theme": "MIT 대학 과제와 학생 작품 체험 (CMS.608)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 과제·학생작품",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/pages/assignments-and-student-work/",
+          "note": "과제 설명 PDF 1개를 읽고 공개된 학생 작품 1개를 살펴본다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.608 과제·학생작품 페이지에서 과제 설명 1개를 같이 읽고, 학생 작품 1개를 플레이하거나 규칙을 파악해 본다.",
+        "innollia": "과제 요구사항(제약 조건, 제출물, 평가 포인트)을 요약하고, 학생 작품이 그 요구사항을 어떻게 해결했는지 분석 메모를 남긴다.",
+        "pai": "학생 작품을 체험한 뒤 '잘 만든 점 1가지'와 '내가 고치고 싶은 규칙 1가지'를 적어 디스코드에 올린다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 6,
+      "date": "2026-10-28",
+      "week": 1,
+      "theme": "게임 분석 2회차 (A2) — MDA(메커니즘-역학-감정) 관점",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 Game Design 홈",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+          "note": "MDA 프레임워크(Mechanics-Dynamics-Aesthetics) 개념을 복습한다.",
+          "login_required": false
+        },
+        {
+          "title": "Game Design Concepts (Ian Schreiber)",
+          "url": "https://gamedesignconcepts.wordpress.com/",
+          "note": "MDA와 플레이어 경험 관련 글 참고.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "D3과 다른 게임을 1개 골라 20분 플레이한 뒤, 규칙(M)이 실제 플레이 상황(D)과 플레이어의 감정(A)으로 어떻게 이어지는지 집중 분석한다.",
+        "innollia": "templates/analysis-guide.md 의 순서에 따라 백지 분석을 수행하되, 특히 3번 '메커니즘-역학-감정(MDA)' 연결 고리를 구체적 사례로 서술한다.",
+        "pai": "templates/pai-worksheet.md 를 복사해 작성하면서, '규칙 하나를 바꾸면 플레이 느낌이 어떻게 달라질까?' 항목을 중점적으로 채운다."
+      },
+      "analysis_session": true
+    },
+    {
+      "day": 7,
+      "date": "2026-10-29",
+      "week": 1,
+      "theme": "1주차 정리 — 기초 이론 지도 그리기와 상호 설명",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 Game Design 홈",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+          "note": "1주차에 훑은 강의 위치와 미확인 주제를 점검한다.",
+          "login_required": false
+        },
+        {
+          "title": "K-MOOC 게임컨셉디자인 (계명대)",
+          "url": "https://www.kmooc.kr/view/course/detail/21313",
+          "note": "1주차에 확인한 K-MOOC 진도와 다음에 볼 주제를 체크한다.",
+          "login_required": true
+        }
+      ],
+      "tasks": {
+        "common": "1주차 동안 배운 핵심 용어와 강의 위치를 A4 한 장 분량(또는 마크다운 1쪽) '1주차 지도'로 정리하고 디스코드 음성으로 서로 설명한다.",
+        "innollia": "메커니즘·의미 있는 선택·MDA가 서로 어떻게 연결되는지 구조도를 그리고, 파이가 쓴 1주차 학습지 2개를 보며 피드백을 준다.",
+        "pai": "이번 주에 배운 용어 중 가장 기억에 남는 3개를 innollia에게 자기 말로 설명하고, 1주차 진도 빠진 곳을 점검한다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 8,
+      "date": "2026-10-30",
+      "week": 2,
+      "theme": "설계 방법론 입문 — CMS.301 과제 8종 구조 파악",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.301 Introduction to Game Design Methods 홈",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+          "note": "강의 전체 개요와 설계 방법론 흐름을 확인한다.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.301 과제 (Assignments)",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/pages/assignments/",
+          "note": "과제 PDF 8종이 분석→문서→프로토타입→플레이테스트로 이어지는 구조를 파악한다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.301 홈과 과제 페이지를 함께 훑으며 과제 8종이 어떤 순서로 게임 기획 역량을 훈련시키는지 흐름도를 적는다.",
+        "innollia": "CMS.301 과제 8종의 제목과 핵심 요구사항을 한 줄씩 요약해 2회독 때 어떤 순서로 풀지 초안을 잡는다.",
+        "pai": "과제 8종 목록을 보면서 '지금 당장 해보고 싶은 과제 1개'와 '가장 어려워 보이는 과제 1개'를 골라 이유를 적는다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 9,
+      "date": "2026-10-31",
+      "week": 2,
+      "theme": "장르에 대한 이해 (에듀코카 공개강의) — *Flesh Pit 목표일: 최소판 30분 허용*",
+      "minutes": 90,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "에듀코카 공개강의 — 장르에 대한 이해 (pSeq=1044)",
+          "url": "https://edu.kocca.kr/edu/onlineEdu/openLecture/view.do?menuNo=500085&pSeq=1044",
+          "note": "로그인 없이 시청 가능. 장르별 핵심 문법과 시스템 특징을 다룬다.",
+          "login_required": false
+        },
+        {
+          "title": "중앙대 게임아트와 내러티브 (KOCW)",
+          "url": "https://www.kocw.net/home/search/kemView.do?kemId=1178194",
+          "note": "시간 여유가 있을 때 재미요소 분석·콘셉트·시스템 목차를 함께 참고.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "에듀코카 공개강의 '장르에 대한 이해'(pSeq=1044)를 시청한다. (10/31은 Flesh Pit 목표일이므로 바쁘면 30분 최소판으로 핵심만 보고 요약 3줄만 남겨도 통과!)",
+        "innollia": "강의에서 설명하는 장르별 핵심 시스템 규칙을 메모하고, 우리 프로젝트 장르와 겹치는 문법 2가지를 체크한다.",
+        "pai": "강의를 보고 내가 좋아하는 장르의 '절대 빠지면 안 되는 규칙 1가지'를 디스코드에 짧게 남긴다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 10,
+      "date": "2026-11-01",
+      "week": 2,
+      "theme": "게임 분석 3회차 (A3) — 시스템·레벨 관점(규칙, 진행, 레벨 흐름)",
+      "minutes": 90,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "한성대 디지털 스토리텔링 실습 (KOCW)",
+          "url": "https://www.kocw.net/home/search/kemView.do?kemId=1526218",
+          "note": "시스템 기획, 미션 설계, 레벨 디자인 강의 주제를 참고한다.",
+          "login_required": false
+        },
+        {
+          "title": "중앙대 게임아트와 내러티브 (KOCW)",
+          "url": "https://www.kocw.net/home/search/kemView.do?kemId=1178194",
+          "note": "시스템·레벨·도전과 보상 설계 관점을 참고한다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "스테이지나 진행 구조가 뚜렷한 게임 1개를 골라 20~30분 플레이하고, 시스템 규칙과 레벨(진행·난이도·보상) 흐름을 중점 분석한다.",
+        "innollia": "templates/analysis-guide.md 를 따라 백지 분석을 작성하되, 4번 '시스템/레벨/UI/밸런스 메모'와 5번 '플레이어 경험 곡선'에 집중해 레벨이 어떻게 학습과 도전을 유도하는지 적는다.",
+        "pai": "templates/pai-worksheet.md 를 복사해 작성하면서, 처음 시작할 때와 15분 뒤의 난이도·규칙 변화(막혔던 순간과 뚫은 방법)를 구체적으로 적는다."
+      },
+      "analysis_session": true
+    },
+    {
+      "day": 11,
+      "date": "2026-11-02",
+      "week": 2,
+      "theme": "실시간 vs 턴방식 시스템과 직무강의 탐색 (에듀코카)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "에듀코카 공개강의 — 실시간 게임의 이해: 이스 (pSeq=1045)",
+          "url": "https://edu.kocca.kr/edu/onlineEdu/openLecture/view.do?menuNo=500085&pSeq=1045",
+          "note": "실시간 액션 RPG의 전투·조작·템포 분석 (1045 또는 1046 중 택1 시청).",
+          "login_required": false
+        },
+        {
+          "title": "에듀코카 공개강의 — 턴방식 게임의 이해: 히어로즈 오브 마이트 앤 매직 (pSeq=1046)",
+          "url": "https://edu.kocca.kr/edu/onlineEdu/openLecture/view.do?menuNo=500085&pSeq=1046",
+          "note": "턴제 전략 게임의 자원·선택·전술 분석 (1045 또는 1046 중 택1 시청).",
+          "login_required": false
+        },
+        {
+          "title": "에듀코카 게임기획 테마과정 (직무강의)",
+          "url": "https://edu.kocca.kr/edu/onlineEdu/themeLecture/view.do?menuNo=500157&pId=90&pageIndex=1",
+          "note": "로그인 후 게임 시스템 기획·수치 레벨디자인 기초(엑셀)·공간 레벨디자인 목록 확인.",
+          "login_required": true
+        }
+      ],
+      "tasks": {
+        "common": "에듀코카 공개강의 '이스(1045)' 또는 '히어로즈(1046)' 중 1개를 골라 시청하고, 테마과정 페이지에 로그인해 시스템기획·수치 레벨디자인 직무강의 목록을 확인한다.",
+        "innollia": "실시간 게임과 턴방식 게임이 플레이어에게 요구하는 판단 속도·정보량의 차이를 정리하고, 2회독 때 들을 에듀코카 직무강의 2개를 찜한다.",
+        "pai": "오늘 본 강의(이스 또는 히어로즈)에서 설명한 게임의 핵심 재미 요소를 3줄로 요약하고, 테마과정 목록에서 듣고 싶은 강의 제목 1개를 고른다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 12,
+      "date": "2026-11-03",
+      "week": 2,
+      "theme": "게임 밸런싱 입문 (Game Balance Concepts)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "Game Balance Concepts (Ian Schreiber)",
+          "url": "https://gamebalanceconcepts.wordpress.com/",
+          "note": "1주차(Level 1: Intro to Game Balance) 글을 읽으며 밸런스의 정의와 역할을 익힌다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "Game Balance Concepts 1주차 글을 함께 읽고, 게임에서 '밸런스가 맞는다/무너졌다'는 것이 숫자와 선택지에 어떤 뜻인지 이야기한다.",
+        "innollia": "글에 나오는 밸런싱의 목적(지배적 전략 제거, 의미 있는 선택 유지, 공정성/난이도 조절)을 요약하고 실제 게임의 밸런스 패치 사례 1개를 떠올려 적는다.",
+        "pai": "내가 해본 게임 중에서 '사기 캐릭터/사기 무기' 때문에 재미가 줄어들었던 경험 1가지를 적고, 어떻게 고치면 좋을지 한 줄 아이디어를 낸다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 13,
+      "date": "2026-11-04",
+      "week": 2,
+      "theme": "게임 분석 4회차 (A4) — UI/UX와 밸런스 관점",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "Game Balance Concepts (Ian Schreiber)",
+          "url": "https://gamebalanceconcepts.wordpress.com/",
+          "note": "D12에서 읽은 밸런스 관점을 실제 게임 분석에 적용한다.",
+          "login_required": false
+        },
+        {
+          "title": "K-MOOC 게임컨셉디자인 (계명대)",
+          "url": "https://www.kmooc.kr/view/course/detail/21313",
+          "note": "UI/UX 및 레벨·밸런스 관련 주차 주제를 참고한다.",
+          "login_required": true
+        }
+      ],
+      "tasks": {
+        "common": "정보 표시(UI)와 선택지 밸런스가 중요한 게임을 골라 20분 플레이한 뒤, 화면 인터페이스가 판단을 어떻게 돕는지와 선택지 간 균형을 분석한다.",
+        "innollia": "templates/analysis-guide.md 에 따라 백지 분석을 작성하되, 4번 항목에서 UI/UX(정보 전달, 조작 피드백)와 수치/선택지 밸런스를 중점적으로 파고든다.",
+        "pai": "templates/pai-worksheet.md 를 복사해 작성하면서, 화면에서 보기 편했던 표시 1가지와 불편했던 표시 1가지, 그리고 가장 강한 선택지가 무엇이었는지 적는다."
+      },
+      "analysis_session": true
+    },
+    {
+      "day": 14,
+      "date": "2026-11-05",
+      "week": 2,
+      "theme": "기획문서(GDD)·프로토타입 과제 파악 및 2주차 정리",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.301 과제 (Assignments)",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/pages/assignments/",
+          "note": "기획문서(GDD) 작성 및 종이/디지털 프로토타입 관련 과제 안내와 예시를 읽는다.",
+          "login_required": false
+        },
+        {
+          "title": "에듀코카 공개강의 — 인디게임 결과물로 이어지는 제작 (pSeq=794)",
+          "url": "https://edu.kocca.kr/edu/onlineEdu/openLecture/view.do?menuNo=500085&pSeq=794",
+          "note": "기획이 실제 프로토타입과 인디게임 결과물로 이어지는 흐름 참고.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.301 과제 중 기획문서(GDD)·프로토타입 관련 과제 안내를 읽고, 2주차(시스템·레벨·UI·밸런스·문서) 전체 내용을 서로 설명하며 정리한다.",
+        "innollia": "MIT가 요구하는 GDD·프로토타입 과제의 목차 구성과 분량을 메모하고, 2주차 개념 지도를 완성해 파이에게 설명한다.",
+        "pai": "이번 주에 배운 시스템·레벨·밸런스·GDD 중 가장 재미있었던 개념 2가지를 골라 innollia에게 설명하고, 우리 게임 아이디어를 세 줄 기획서로 적어본다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 15,
+      "date": "2026-11-06",
+      "week": 3,
+      "theme": "플레이테스트 과제와 질문 설계 (CMS.301)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.301 과제 (Assignments)",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/pages/assignments/",
+          "note": "플레이테스트(Playtesting) 관련 과제 안내 PDF를 읽는다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.301 과제 중 플레이테스트 관련 안내를 함께 읽고, 왜 개발자 스스로 플레이하는 것과 남이 플레이하는 것을 관찰하는 것이 다른지 이야기한다.",
+        "innollia": "플레이테스트 계획서(테스트 목적, 관찰할 행동, 테스트 후 질문, 수정 반영)의 항목을 정리해 주말 분석(D17)에 쓸 관찰 체크리스트를 만든다.",
+        "pai": "내 게임을 친구에게 시켜볼 때 '절대 옆에서 훈수 두지 않기' 같은 주의점 3가지와 테스트 후 물어볼 질문 3가지를 적는다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 16,
+      "date": "2026-11-07",
+      "week": 3,
+      "theme": "팀 게임 제작과 평가 기준 5가지 (CMS.611J)",
+      "minutes": 90,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.611J Creating Video Games 홈",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/",
+          "note": "과목 소개와 평가 기준 5개(기능 20/반복 디자인 20/프로젝트 관리 20/개인 포스트모템 20/팀 포스트모템 20) 확인.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.611J 진도표 (Calendar)",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/pages/calendar/",
+          "note": "한 학기 동안 프로젝트가 어떻게 기획→프로토타입→테스트→출시·회고로 진행되는지 확인.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.611J 강의영상 목록",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/pages/lecture-videos/",
+          "note": "27회 강의 목록을 훑으며 D18·D19에 볼 영상을 미리 고른다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.611J 홈·진도표·강의영상 목록을 훑고, '게임이 돌아가는 것은 20%이고 나머지 80%는 설계 반복·협업·회고'라는 평가 기준을 핸섬가이즈 팀 규칙과 비교한다.",
+        "innollia": "평가 기준 5개(각 20%)를 우리 2인 팀 작업에 어떻게 적용할지 적고, D18(사용자 테스트)과 D19(협업·백로그)에 볼 영상 번호를 지정한다.",
+        "pai": "CMS.611J 평가 기준 5개 중에서 지금까지 우리가 게임 만들 때 가장 부족했던 항목 1개를 고르고, 앞으로 어떻게 챙길지 한 줄 다짐을 적는다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 17,
+      "date": "2026-11-08",
+      "week": 3,
+      "theme": "게임 분석 5회차 (A5) — 플레이테스트와 플레이 관찰",
+      "minutes": 90,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.301 과제 (Assignments)",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/pages/assignments/",
+          "note": "D15에서 읽은 플레이테스트 과제 가이드를 실제 관찰에 적용한다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "서로 해본 적 없는 짧은 게임을 골라 한 명이 화면 공유로 플레이하고 다른 한 명은 아무 설명 없이 관찰한 뒤 역할을 바꿔 진행한다.",
+        "innollia": "templates/analysis-guide.md 를 바탕으로 백지 분석을 작성하되, 플레이어가 어디서 헤매고 어떤 표정/반응을 보였는지 관찰 기록을 중심으로 개선안 1개를 도출한다.",
+        "pai": "templates/pai-worksheet.md 를 복사해 채우면서, 내가 직접 할 때와 상대방이 플레이하는 걸 옆에서 지켜볼 때 다르게 보였던 점 2가지를 적는다."
+      },
+      "analysis_session": true
+    },
+    {
+      "day": 18,
+      "date": "2026-11-09",
+      "week": 3,
+      "theme": "사용자 테스트(Focus Test) 실전 기법 (CMS.611J)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.611J 강의영상 목록",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/pages/lecture-videos/",
+          "note": "사용자 테스트(Focus Test / Playtesting) 주제 영상 1개를 시청한다.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.611J Creating Video Games 홈",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/",
+          "note": "Focus Test Script, Sample Focus Test Document, Summary 구성을 참고한다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.611J 강의영상 중 사용자 테스트(Focus Test) 주제 1개를 시청하고, 어제(D17) 우리가 했던 관찰 테스트와 비교한다.",
+        "innollia": "Focus Test 진행 순서(사전 안내 → 무개입 관찰 → 사후 질문 → 결과 요약 문서화)를 정리해 우리 팀용 1쪽 테스트 시트 초안을 만든다.",
+        "pai": "영상을 보고 테스터에게서 솔직한 반응을 얻어내는 좋은 질문법 2가지를 메모해 디스코드에 공유한다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 19,
+      "date": "2026-11-10",
+      "week": 3,
+      "theme": "협업과 프로젝트 관리 — 백로그와 애자일 (CMS.611J)",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.611J 강의영상 목록",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/pages/lecture-videos/",
+          "note": "협업·프로젝트 관리(백로그/애자일/스크럼) 주제 영상 1개를 시청한다.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.611J 진도표 (Calendar)",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/pages/calendar/",
+          "note": "스프린트 단위 마일스톤과 팀 협업 일정을 참고한다.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "CMS.611J 협업·프로젝트 관리(백로그/애자일) 주제 영상 1개를 보고, 2인 팀이나 게임잼에서 마감을 지키는 할 일 관리법을 이야기한다.",
+        "innollia": "백로그(Backlog) 작성법과 우선순위 나누기(Must-have / Nice-to-have)를 정리하고, 다음 게임잼이나 팀 프로젝트에 쓸 작업 관리 규칙 3개를 제안한다.",
+        "pai": "우리가 게임을 만들 때 할 일이 너무 많아져서 못 끝내는 일을 막으려면 어떻게 '가장 작은 핵심 기능'만 남길지 자기 생각을 3줄로 적는다."
+      },
+      "analysis_session": false
+    },
+    {
+      "day": 20,
+      "date": "2026-11-11",
+      "week": 3,
+      "theme": "게임 분석 6회차 (A6) — 우리 게임 기획에 배운 것 적용하기",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.301 Introduction to Game Design Methods 홈",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/",
+          "note": "분석→기획→프로토타입→테스트로 이어지는 전체 설계 흐름 복습.",
+          "login_required": false
+        },
+        {
+          "title": "에듀코카 공개강의 — 인디게임 결과물로 이어지는 제작 (pSeq=794)",
+          "url": "https://edu.kocca.kr/edu/onlineEdu/openLecture/view.do?menuNo=500085&pSeq=794",
+          "note": "배운 내용을 우리 팀의 실제 게임 제작으로 연결할 때 참고.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "핸섬가이즈에서 만들고 싶거나 진행 중인 게임(또는 레퍼런스 게임)을 놓고, 3주간 배운 개념을 총동원해 '우리 게임 기획에 적용할 것 1쪽'을 함께 맞춘다.",
+        "innollia": "templates/analysis-guide.md 의 6개 순서를 그대로 사용해 우리 게임(또는 핵심 레퍼런스)을 백지 분석하고, 실제 개발에 바로 넣을 기획 개선안 1쪽을 작성한다.",
+        "pai": "templates/pai-worksheet.md 를 복사해 우리 게임(또는 만들고 싶은 게임) 기준으로 모든 질문을 채우고, '다음에 내가 만든다면 꼭 넣을 재미 요소'를 발표한다."
+      },
+      "analysis_session": true
+    },
+    {
+      "day": 21,
+      "date": "2026-11-12",
+      "week": 3,
+      "theme": "1회독 종료 — 전체 지도 완성 및 2회독 출발선 정하기",
+      "minutes": 75,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "title": "MIT CMS.608 Game Design 홈",
+          "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/",
+          "note": "2회독 1영역(게임디자인 이론) 자료 위치 최종 점검.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.301 과제 (Assignments)",
+          "url": "https://ocw.mit.edu/courses/cms-301-introduction-to-game-design-methods-spring-2016/pages/assignments/",
+          "note": "2회독 2~4영역 공식 과제 위치 최종 점검.",
+          "login_required": false
+        },
+        {
+          "title": "MIT CMS.611J Creating Video Games 홈",
+          "url": "https://ocw.mit.edu/courses/cms-611j-creating-video-games-fall-2014/",
+          "note": "2회독 5영역(실전 제작) 자료 위치 최종 점검.",
+          "login_required": false
+        }
+      ],
+      "tasks": {
+        "common": "1~3주차 지도를 합쳐 '대학 게임기획 전체 지도'를 완성하고, '완강이 아니라 지도 완성' 기준으로 1회독을 자체 점검한 뒤 2회독 5영역 중 첫 영역을 고른다.",
+        "innollia": "5개 영역(이론 / 분석·설계 / 시스템·레벨·밸런스 / 플레이테스트 / 실전 제작)별 핵심 자료와 과제 위치를 한 장에 정리하고, 2회독 첫 번째로 수행할 공식 과제를 지정한다.",
+        "pai": "3주 동안 작성한 학습지 6장을 돌아보며 가장 성장한 점 1가지를 적고, 2회독 5영역 중 가장 먼저 도전하고 싶은 영역을 innollia와 합의한다."
+      },
+      "analysis_session": false
+    }
+  ]
+}

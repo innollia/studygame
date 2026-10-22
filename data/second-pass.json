@@ -1,0 +1,194 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "name": "게임디자인 이론",
+      "sources": "CMS.608 진도, 읽기자료, 공식 과제 1~3.",
+      "criteria": [
+        {
+          "id": "lecture",
+          "name": "실제 대학 강의를 학습했는가"
+        },
+        {
+          "id": "assignment",
+          "name": "공식 과제를 수행했는가"
+        },
+        {
+          "id": "apply",
+          "name": "새 사례에 적용할 수 있는가"
+        },
+        {
+          "id": "feedback",
+          "name": "외부 피드백·테스트로 자기 판단을 검토했는가"
+        }
+      ],
+      "status": {
+        "innollia": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        },
+        "pai": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        }
+      },
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "name": "분석과 설계 방법론",
+      "sources": "CMS.301 공식 과제 1~4.",
+      "criteria": [
+        {
+          "id": "lecture",
+          "name": "실제 대학 강의를 학습했는가"
+        },
+        {
+          "id": "assignment",
+          "name": "공식 과제를 수행했는가"
+        },
+        {
+          "id": "apply",
+          "name": "새 사례에 적용할 수 있는가"
+        },
+        {
+          "id": "feedback",
+          "name": "외부 피드백·테스트로 자기 판단을 검토했는가"
+        }
+      ],
+      "status": {
+        "innollia": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        },
+        "pai": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        }
+      },
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "name": "시스템·레벨·밸런스",
+      "sources": "K-MOOC 게임컨셉디자인, 에듀코카, CMS.301 GDD·프로토타입 과제.",
+      "criteria": [
+        {
+          "id": "lecture",
+          "name": "실제 대학 강의를 학습했는가"
+        },
+        {
+          "id": "assignment",
+          "name": "공식 과제를 수행했는가"
+        },
+        {
+          "id": "apply",
+          "name": "새 사례에 적용할 수 있는가"
+        },
+        {
+          "id": "feedback",
+          "name": "외부 피드백·테스트로 자기 판단을 검토했는가"
+        }
+      ],
+      "status": {
+        "innollia": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        },
+        "pai": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        }
+      },
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "name": "플레이테스트와 개선",
+      "sources": "CMS.301 플레이테스트 과제와 최종 탐구 프로젝트, 실제 플레이어 모집.",
+      "criteria": [
+        {
+          "id": "lecture",
+          "name": "실제 대학 강의를 학습했는가"
+        },
+        {
+          "id": "assignment",
+          "name": "공식 과제를 수행했는가"
+        },
+        {
+          "id": "apply",
+          "name": "새 사례에 적용할 수 있는가"
+        },
+        {
+          "id": "feedback",
+          "name": "외부 피드백·테스트로 자기 판단을 검토했는가"
+        }
+      ],
+      "status": {
+        "innollia": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        },
+        "pai": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        }
+      },
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "name": "실전 제작",
+      "sources": "CMS.611J 강의·프로젝트 요구사항, 협업·제작·테스트·회고.",
+      "criteria": [
+        {
+          "id": "lecture",
+          "name": "실제 대학 강의를 학습했는가"
+        },
+        {
+          "id": "assignment",
+          "name": "공식 과제를 수행했는가"
+        },
+        {
+          "id": "apply",
+          "name": "새 사례에 적용할 수 있는가"
+        },
+        {
+          "id": "feedback",
+          "name": "외부 피드백·테스트로 자기 판단을 검토했는가"
+        }
+      ],
+      "status": {
+        "innollia": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        },
+        "pai": {
+          "lecture": false,
+          "assignment": false,
+          "apply": false,
+          "feedback": false
+        }
+      },
+      "notes": ""
+    }
+  ]
+}
