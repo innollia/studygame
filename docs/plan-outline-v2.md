@@ -17,7 +17,7 @@
 id | 날짜 | type | 내용
 ---|---|---|---
 A0 | 10/22 목 | analysis | (이미 완료) Deepest Sword 기준선 분석. 자료: https://cosmicadventuresquad.itch.io/deepest-sword , 결과: feedback/2026-10-22-deepest-sword.md
-J1 | 10/23 금 | jam | 아리스토텔레스 1일차. 시작 전 10분: 잼 규칙 확인 + "이번 잼에서 실험할 설계 가설 1개" 정하기(templates/jam-postmortem.md 의 '잼 전' 칸)
+J1 | 10/23 금 | jam | 아리스토스 잼 준비(엔진·itch.io 업로드 시험·교차 지점 약속). 설계 가설은 10/24 테마 공개 후 범위 회의에서 쓴다
 J2 | 10/24 토 | jam | 아리스토텔레스
 J3 | 10/25 일 | jam | 아리스토텔레스
 J4 | 10/26 월 | jam | 아리스토텔레스
