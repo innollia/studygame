@@ -13,6 +13,7 @@
 - `data/progress.json` — 학습자별(`innollia`, `pai`) 진도·소요시간 기록 (v2)
 - `data/second-pass.json` — 2회독 5영역 및 통과 기준 현황
 - `tools/study.py` — 진도·출력·정적 페이지 생성 CLI (Python 3 표준 라이브러리 전용)
+- 디스코드 자동 게시: tools/discord_post.py (매일 21:30 예약 작업 StudyGame-DailyPost, 토큰은 저장소 밖)
 - `site/index.html` — 정적 현황 보드 (Phase별 접기/펼치기, 다크 테마)
 - `out/` — 디스코드 공유용 내보내기 및 링크 점검 리포트
 
