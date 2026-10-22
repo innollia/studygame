@@ -135,7 +135,40 @@ def build_post_body(target_date: str) -> str:
         raise RuntimeError(f"내보낸 마크다운 파일을 찾을 수 없습니다: {md_path}")
 
     content = md_path.read_text(encoding="utf-8").rstrip("\n")
-    return f"📅 **내일 할 일 — {target_date}**\n{content}"
+
+    day_id = "ID"
+    json_path = OUT_DIR / f"{target_date}.json"
+    try:
+        if not json_path.exists():
+            subprocess.run(
+                [
+                    sys.executable,
+                    str(STUDY_SCRIPT),
+                    "export",
+                    "--date",
+                    target_date,
+                    "--format",
+                    "json",
+                ],
+                cwd=ROOT_DIR,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                check=True,
+            )
+        plan_data = json.loads(json_path.read_text(encoding="utf-8"))
+        if isinstance(plan_data, dict) and plan_data.get("id"):
+            day_id = str(plan_data["id"])
+    except Exception:
+        day_id = "ID"
+
+    footer = (
+        "\n\n---\n"
+        "📝 **보고는 이 글에 답글로** (각자 하나씩)\n"
+        f"`[{day_id} · 이름] 정상/최소판/못함 · 걸린 시간 · 결과물 링크(피그잼·디스코드) · 한 줄 (배운 것 또는 막힌 것)`\n"
+        "예: `[J1 · 파이] 정상 · 150분 · (피그잼 링크) · 지난 회차 1위는 오디오 점수가 높았는데 효과음이 조작마다 달랐다`"
+    )
+    return f"📅 **내일 할 일 — {target_date}**\n{content}{footer}"
 
 
 def split_into_chunks(text: str, max_len: int = MAX_CHUNK_LEN) -> list[str]:
