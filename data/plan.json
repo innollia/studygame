@@ -44,14 +44,21 @@
       "type": "jam",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토텔레스 잼 1일차 — 규칙 확인 및 실험 가설 설정",
-      "minutes": 3,
-      "min_version_minutes": 3,
-      "materials": [],
+      "theme": "아리스토스 잼 준비 — 각자 따로 출품 결정",
+      "minutes": 30,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "url": "https://itch.io/jam/aristos-interactive-jam-9",
+          "title": "Aristos Interactive Jam #9 (itch.io)",
+          "login_required": false,
+          "note": "제출 2026-10-23 21:00~10-26 21:00(페이지 표기, UTC면 한국 10/24 06시~10/27 06시 — 로그인 화면에서 시간대 확인). 팀 무제한, AI·기성 에셋 허용(에셋 비율 표시), 1인 1출품. 참가자 평가 3일: 테마/재미/아트/오디오/혁신"
+        }
+      ],
       "tasks": {
-        "common": "시작 전 10분: 잼 규칙 확인 + '이번 잼에서 실험할 설계 가설 1개' 정하기(templates/jam-postmortem.md 의 '잼 전' 칸). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "이번 잼에서 실험할 핵심 설계 가설 1개를 templates/jam-postmortem.md '잼 전' 칸에 적고, 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "잼 규칙과 마감 시간대(한국 시간)를 같이 확인한다. 이번 잼은 각자 따로 게임 1개씩 낸다. 교차 지점 3개를 약속한다: ① 테마 공개 직후 30분 같이 범위 정하기 ② 첫날 밤 서로 플레이 ③ 마감 전 서로 플레이. itch.io 업로드는 만 18세 미만이면 보호자 동의가 필요하다(itch.io 약관).",
+        "innollia": "엔진·itch.io 계정·빌드 내보내기를 미리 점검하고, 이번 잼에서 실험할 설계 가설 1개를 templates/jam-postmortem.md '잼 전' 칸에 쓴다. Flesh Pit(10/31)과 겹치므로 범위를 아주 작게 잡을 것.",
+        "pai": "엔진과 itch.io 계정·업로드 방법을 미리 확인하고, 이번 잼에서 실험할 설계 가설 1개를 templates/jam-postmortem.md '잼 전' 칸에 쓴다. 막히는 부분은 5~15분 유튜브로만."
       },
       "weekly_review": false,
       "templates": [
@@ -65,14 +72,21 @@
       "type": "jam",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토텔레스 잼 2일차",
+      "theme": "아리스토스 잼 1일차 — 테마 공개, 범위 정하기",
       "minutes": 3,
       "min_version_minutes": 3,
-      "materials": [],
+      "materials": [
+        {
+          "url": "https://itch.io/jam/aristos-interactive-jam-9",
+          "title": "Aristos Interactive Jam #9 (itch.io)",
+          "login_required": false,
+          "note": "제출 2026-10-23 21:00~10-26 21:00(페이지 표기, UTC면 한국 10/24 06시~10/27 06시 — 로그인 화면에서 시간대 확인). 팀 무제한, AI·기성 에셋 허용(에셋 비율 표시), 1인 1출품. 참가자 평가 3일: 테마/재미/아트/오디오/혁신"
+        }
+      ],
       "tasks": {
-        "common": "아리스토텔레스 잼 제작 진행(새 강의 0분). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "핵심 루프 프로토타입 제작 및 플레이 가능 상태 점검. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "테마 공개 직후 30분 같이: 각자 아이디어를 3개 이하로 좁히고 핵심 행동 1·목표 1·실패/성공 피드백 1을 한 줄씩. 서로의 범위가 3일에 맞는지 질문만 한다(대신 정해 주지 않기). 밤에 서로 첫 빌드를 플레이(교차 지점 ②). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 시각/결정/이유/버린 것 1줄.",
+        "innollia": "자기 게임 제작. 파이 범위 회의에서는 답을 주지 말고 \"3일 안에 처음부터 끝까지 한 판이 되나?\"만 묻는다.",
+        "pai": "자기 게임 제작. 핵심 루프는 스스로 정한다. AI를 쓰면 결정 로그에 \"내가 설명할 수 있는 결정\"만 적는다."
       },
       "weekly_review": false,
       "templates": [
@@ -86,14 +100,21 @@
       "type": "jam",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토텔레스 잼 3일차",
+      "theme": "아리스토스 잼 2일차 — 플레이 가능한 한 판 완성",
       "minutes": 3,
       "min_version_minutes": 3,
-      "materials": [],
+      "materials": [
+        {
+          "url": "https://itch.io/jam/aristos-interactive-jam-9",
+          "title": "Aristos Interactive Jam #9 (itch.io)",
+          "login_required": false,
+          "note": "제출 2026-10-23 21:00~10-26 21:00(페이지 표기, UTC면 한국 10/24 06시~10/27 06시 — 로그인 화면에서 시간대 확인). 팀 무제한, AI·기성 에셋 허용(에셋 비율 표시), 1인 1출품. 참가자 평가 3일: 테마/재미/아트/오디오/혁신"
+        }
+      ],
       "tasks": {
-        "common": "아리스토텔레스 잼 제작 진행(새 강의 0분). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "진행 범위 점검 및 불필요한 기능 쳐내기. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "오늘 목표: 처음부터 끝까지 한 판이 돌아가는 빌드. 가장 위험한 가정 1개를 먼저 시험한다. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 시각/결정/이유/버린 것 1줄.",
+        "innollia": "자기 게임 제작(작게).",
+        "pai": "자기 게임 제작. 막히면 아안에게 질문은 하되 코드를 대신 짜 달라고 하지 않는다."
       },
       "weekly_review": false,
       "templates": [
@@ -107,14 +128,21 @@
       "type": "jam",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토텔레스 잼 4일차",
+      "theme": "아리스토스 잼 3일차 — 동결과 제출",
       "minutes": 3,
       "min_version_minutes": 3,
-      "materials": [],
+      "materials": [
+        {
+          "url": "https://itch.io/jam/aristos-interactive-jam-9",
+          "title": "Aristos Interactive Jam #9 (itch.io)",
+          "login_required": false,
+          "note": "제출 2026-10-23 21:00~10-26 21:00(페이지 표기, UTC면 한국 10/24 06시~10/27 06시 — 로그인 화면에서 시간대 확인). 팀 무제한, AI·기성 에셋 허용(에셋 비율 표시), 1인 1출품. 참가자 평가 3일: 테마/재미/아트/오디오/혁신"
+        }
+      ],
       "tasks": {
-        "common": "아리스토텔레스 잼 제작 및 내부 테스트(새 강의 0분). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "마감 전 핵심 플레이 흐름 연결 및 버그 점검. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "마감 몇 시간 전에 새 기능 추가를 멈춘다(동결). 서로 처음 하는 사람처럼 설명 없이 플레이하고, 막힌 곳 1개씩 알려 준다(교차 지점 ③). 제출 직전 체크리스트(templates/jam-postmortem.md ④)를 확인하고 마감 전에 제출한다. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 시각/결정/이유/버린 것 1줄.",
+        "innollia": "자기 게임 마무리·제출.",
+        "pai": "자기 게임 마무리·제출."
       },
       "weekly_review": false,
       "templates": [
@@ -128,14 +156,21 @@
       "type": "jam",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토텔레스 잼 마감",
-      "minutes": 3,
-      "min_version_minutes": 3,
-      "materials": [],
+      "theme": "아리스토스 평가 기간 — 남의 게임 평가하기",
+      "minutes": 30,
+      "min_version_minutes": 30,
+      "materials": [
+        {
+          "url": "https://itch.io/jam/aristos-interactive-jam-9",
+          "title": "Aristos Interactive Jam #9 (itch.io)",
+          "login_required": false,
+          "note": "제출 2026-10-23 21:00~10-26 21:00(페이지 표기, UTC면 한국 10/24 06시~10/27 06시 — 로그인 화면에서 시간대 확인). 팀 무제한, AI·기성 에셋 허용(에셋 비율 표시), 1인 1출품. 참가자 평가 3일: 테마/재미/아트/오디오/혁신"
+        }
+      ],
       "tasks": {
-        "common": "아리스토텔레스 잼 빌드 마감 및 제출. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "최종 제출 빌드 확인 및 마감 전 마지막 결정 기록. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "제출 페이지·조작 안내 확인 및 마감 결정 기록. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "잼 마감 후 3일 동안 참가자끼리 평가한다. 각자 다른 참가자 게임 3개 이상과 서로의 게임을 테마/재미/아트/오디오/혁신으로 평가하고, 점수마다 근거 장면 한 줄을 남긴다. 남의 게임을 평가하는 것 자체가 분석 연습이다.",
+        "innollia": "평가 3개 이상 + 파이 게임 평가. 점수 근거에 [봤음]/[추측]을 구분해서 쓴다.",
+        "pai": "평가 3개 이상 + 아안 게임 평가. 각 점수에 \"어떤 장면 때문에\"를 한 줄씩 쓴다."
       },
       "weekly_review": false,
       "templates": [
@@ -149,12 +184,12 @@
       "type": "review",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토텔레스 잼 복기 (60분)",
+      "theme": "아리스토스 복기 60분 — 각자 만든 두 게임 비교",
       "minutes": 60,
       "min_version_minutes": 60,
       "materials": [],
       "tasks": {
-        "common": "templates/jam-postmortem.md 로 각자 따로 복기를 쓴 다음 비교한다. 초점: 일정 예상 vs 실제, 최소 플레이 범위, 첫 외부 테스트 시점. 끝에 slap jam에서 바꿀 규칙 CHANGE 1개를 합의한다.",
+        "common": "templates/jam-postmortem.md 로 각자 따로 15분 쓴 뒤 비교한다. 초점: 일정 예상 vs 실제, 최소 플레이 범위, 받은 평가 점수와 댓글이 우리 예상과 맞았나. 서로의 게임에서 잘된 장치 1개씩 짚기. 끝에 slap jam(같이 만들기)에서 지킬 협업 규칙 CHANGE 1개를 정한다.",
         "innollia": "templates/jam-postmortem.md 에 잘된 선택 2 + 아쉬운 선택 2 + KEEP/CHANGE/TRY를 먼저 독립 작성하고 일정 예상 vs 실제 차이를 정리한다.",
         "pai": "templates/jam-postmortem.md 에 잘된 선택 2 + 아쉬운 선택 2 + KEEP/CHANGE/TRY를 먼저 독립 작성하고 다음 잼(slap jam)에 바로 적용할 CHANGE 1개를 적는다."
       },
@@ -170,12 +205,12 @@
       "type": "jam",
       "phase": "pre",
       "week": null,
-      "theme": "slap jam 1일차 — 10/28 CHANGE 규칙 실제 적용",
+      "theme": "slap jam 1일차 — 이번엔 둘이 같이 한 게임",
       "minutes": 3,
       "min_version_minutes": 3,
       "materials": [],
       "tasks": {
-        "common": "slap jam 시작: 어제(10/28) 복기에서 정한 CHANGE 규칙 1개를 실제로 적용해 범위를 잡는다. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
+        "common": "이번 잼은 둘이 한 게임을 만든다. 역할을 나누되 파이가 핵심 설계 결정 1개 이상을 맡는다. 10/28에 정한 CHANGE 규칙을 실제로 적용한다. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 시각/결정/이유/버린 것 1줄.",
         "innollia": "templates/jam-postmortem.md '잼 전' 칸에 실험 가설과 CHANGE 적용 방법을 적고, 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
         "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
       },
