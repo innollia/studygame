@@ -1,0 +1,18 @@
+{
+  "board": "5nPD4oRTN3oiVhiLnP0DpU",
+  "aliases": {
+    "belladonna Sherum": "아안",
+    "김규민": "파이"
+  },
+  "skip_names": [],
+  "sections": {
+    "89:374": {
+      "name": "게임 분석해보기",
+      "hash": "4e28d507",
+      "file": "docs/figjam-read-2026-10-22.md",
+      "saved_at": "2026-10-22T23:58+09:00",
+      "count": 42,
+      "note": "A0 Deepest Sword. 수동 정리본"
+    }
+  }
+}
