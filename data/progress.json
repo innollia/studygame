@@ -1,254 +1,723 @@
 {
+  "version": 2,
   "days": {
-    "1": {
+    "A0": {
       "innollia": {
-        "done": false,
-        "date": null,
-        "note": ""
-      },
-      "pai": {
-        "done": false,
-        "date": null,
-        "note": ""
-      }
-    },
-    "2": {
-      "innollia": {
-        "done": false,
-        "date": null,
-        "note": ""
-      },
-      "pai": {
-        "done": false,
-        "date": null,
-        "note": ""
-      }
-    },
-    "3": {
-      "innollia": {
-        "done": true,
+        "status": "done",
         "date": "2026-10-22",
-        "note": "10/22 앞당겨 함: 피그잼 Deepest Sword 분석 1회차(1시간). feedback/2026-10-22-deepest-sword.md"
+        "level": "normal",
+        "planned_min": 75,
+        "actual_min": 60,
+        "note": "피그잼 Deepest Sword 기준선 분석. feedback/2026-10-22-deepest-sword.md"
       },
       "pai": {
-        "done": true,
+        "status": "done",
         "date": "2026-10-22",
-        "note": "10/22 앞당겨 함: 피그잼 Deepest Sword 분석 1회차(1시간). feedback/2026-10-22-deepest-sword.md"
+        "level": "normal",
+        "planned_min": 75,
+        "actual_min": 60,
+        "note": "피그잼 Deepest Sword 기준선 분석. feedback/2026-10-22-deepest-sword.md"
       }
     },
-    "4": {
+    "J1": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "5": {
+    "J2": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "6": {
+    "J3": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "7": {
+    "J4": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "8": {
+    "J5": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "9": {
+    "R1": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "10": {
+    "J6": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "11": {
+    "J7": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "12": {
+    "J8": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "13": {
+    "R2": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "14": {
+    "R3": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "15": {
+    "D1": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "16": {
+    "D2": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "17": {
+    "D3": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "18": {
+    "X1": {
       "innollia": {
-        "done": false,
+        "status": "rest",
         "date": null,
+        "level": null,
+        "planned_min": 0,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "rest",
         "date": null,
+        "level": null,
+        "planned_min": 0,
+        "actual_min": null,
         "note": ""
       }
     },
-    "19": {
+    "D4": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "20": {
+    "D5": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     },
-    "21": {
+    "D6": {
       "innollia": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       },
       "pai": {
-        "done": false,
+        "status": "todo",
         "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D7": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D8": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D9": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D10": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D11": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D12": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D13": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D14": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D15": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D16": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D17": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D18": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D19": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D20": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "D21": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "B1": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "B2": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "B3": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "B4": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "B5": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      }
+    },
+    "M1": {
+      "innollia": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
+        "note": ""
+      },
+      "pai": {
+        "status": "todo",
+        "date": null,
+        "level": null,
+        "planned_min": null,
+        "actual_min": null,
         "note": ""
       }
     }
