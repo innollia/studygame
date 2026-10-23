@@ -21,20 +21,20 @@
     },
     "J1": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-24",
+        "level": "normal",
+        "planned_min": 150,
+        "actual_min": 150,
+        "note": "보고(디스코드): 지난 회차 분석은 소규모라 생략. 파이와 앱 UI를 유튜버 피드백 전에 각자 피드백→유튜버와 비교(피그잼). 이미지 생성 범용 프롬프트 제작, 퍼즐게임 가볍게 제작, 인디게임 몇 개, 유튜브 몇 편."
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-24",
+        "level": "normal",
+        "planned_min": 150,
+        "actual_min": 150,
+        "note": "보고(아안 대리): 앱 UI 사전 피드백→유튜버 피드백 비교(피그잼), GPT 이미지 생성 학습, 인디게임 몇 개, 유튜브 몇 편."
       }
     },
     "J2": {
