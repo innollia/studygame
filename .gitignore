@@ -3,3 +3,4 @@ data/discord.local.json
 data/discord-post.log
 
 data/discord-post-run.log
+eval-cases/*/input/*.html
