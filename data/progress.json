@@ -39,20 +39,20 @@
     },
     "J2": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-24",
+        "level": "normal",
+        "planned_min": 3,
+        "actual_min": 3,
+        "note": "보고(디스코드): 범위가 커서 비주얼 노벨로 전환. GPT 그림체 프롬프트를 모으고 그림체 만들기 시스템 제작(약 5시간). 게임은 원샷 생성, 수정할 것 많음. 디스코드방 14시간."
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-24",
+        "level": "normal",
+        "planned_min": 3,
+        "actual_min": 3,
+        "note": "보고(디스코드): 잼 게임 제작, AI 유튜브 몇 편, AI 디자인 잘 뽑는 법 조사, 나무 게임 유지보수."
       }
     },
     "J3": {
