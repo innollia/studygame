@@ -57,20 +57,20 @@
     },
     "J3": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "min",
+        "date": "2026-10-25",
+        "level": "min",
+        "planned_min": 3,
+        "actual_min": 3,
+        "note": "보고: 외출로 한 게 적음. 학교에서 게임 스토리를 만지작거릴 툴을 만듦."
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-25",
+        "level": "normal",
+        "planned_min": 3,
+        "actual_min": 3,
+        "note": "보고: 오디오 대부분 추가·수정, 게임 내 버그 수정과 요소 추가."
       }
     },
     "J4": {
