@@ -196,19 +196,17 @@
       "type": "review",
       "phase": "pre",
       "week": null,
-      "theme": "아리스토스 복기 60분 — 각자 만든 두 게임 비교",
+      "theme": "쉬는 날 — 아리스토스 복기는 10/27에 끝남",
       "minutes": 60,
       "min_version_minutes": 60,
       "materials": [],
       "tasks": {
-        "common": "먼저 각자 templates/jam-postmortem.md 를 15분 동안 따로 쓴다(상대 것은 보지 않는다). 그다음 같이 보며 세 가지를 비교한다: ① 예상한 일정과 실제로 걸린 시간 ② 받은 점수·댓글이 예상과 맞았나 ③ 상대 게임에서 잘된 점 1개씩. 끝으로 같이 만드는 slap jam에서 바꿀 규칙 1개를 정한다(예: 'AI가 작업하는 동안 서로의 빌드를 해 본다').",
-        "innollia": "잘된 선택 2개, 아쉬운 선택 2개, 계속할 것·바꿀 것·해 볼 것(KEEP/CHANGE/TRY)을 쓰고, 일정 예상과 실제의 차이를 적는다.",
-        "pai": "잘된 선택 2개, 아쉬운 선택 2개, 계속할 것·바꿀 것·해 볼 것(KEEP/CHANGE/TRY)을 쓰고, slap jam에서 바로 바꿀 것 1개를 고른다."
+        "common": "쉰다. 복기는 10/27 스레드 대화로 이미 끝났다(정한 규칙: 만들기 전에 아이디어가 재미있는지 먼저 확인하고, 완성된 모습을 그려 본 뒤 시작한다).",
+        "innollia": "쉰다.",
+        "pai": "쉰다."
       },
       "weekly_review": false,
-      "templates": [
-        "templates/jam-postmortem.md"
-      ]
+      "templates": []
     },
     {
       "id": "J6",
@@ -222,8 +220,8 @@
       "min_version_minutes": 3,
       "materials": [],
       "tasks": {
-        "common": "이번엔 둘이 게임 하나를 같이 만든다. 역할을 나누고, 핵심 설계 결정 중 1개 이상은 파이가 정한다. 10/28에 정한 규칙을 실제로 지킨다. 작업을 마칠 때 3분: 오늘 정한 것 하나, 왜 그렇게 정했는지, 그래서 버린 것을 한 줄로 남긴다(templates/jam-postmortem.md 2번 양식).",
-        "innollia": "시작 전에 templates/jam-postmortem.md '잼 전' 칸에 '이번 잼에서 시험해 볼 것' 한 줄과 10/28 규칙을 어떻게 지킬지 적는다.",
+        "common": "이번엔 둘이 게임 하나를 같이 만든다. 역할을 나누고, 핵심 설계 결정 중 1개 이상은 파이가 정한다. 10/27 복기에서 정한 규칙(만들기 전 아이디어 확인, 완성 모습 그려 보고 시작)을 실제로 지킨다. 작업을 마칠 때 3분: 오늘 정한 것 하나, 왜 그렇게 정했는지, 그래서 버린 것을 한 줄로 남긴다(templates/jam-postmortem.md 2번 양식).",
+        "innollia": "시작 전에 templates/jam-postmortem.md '잼 전' 칸에 '이번 잼에서 시험해 볼 것' 한 줄과 10/27 규칙을 어떻게 지킬지 적는다.",
         "pai": "파이가 맡을 설계 결정 1개를 오늘 정한다. 유튜브는 막힌 문제를 풀 때만, 5~15분짜리로 본다."
       },
       "weekly_review": false,
@@ -313,7 +311,7 @@
         }
       ],
       "tasks": {
-        "common": "templates/jam-postmortem.md 로 slap jam 나머지 복기(45분)를 마치고 두 잼을 비교한다(10/28 CHANGE가 실행됐나, 같은 문제가 줄었나). 마지막 10분에는 K-MOOC 게임컨셉디자인 수강신청을 확인한다.",
+        "common": "templates/jam-postmortem.md 로 slap jam 나머지 복기(45분)를 마치고 두 잼을 비교한다(10/27 복기에서 정한 규칙가 실행됐나, 같은 문제가 줄었나). 마지막 10분에는 K-MOOC 게임컨셉디자인 수강신청을 확인한다.",
         "innollia": "templates/jam-postmortem.md 를 완성하고 아리스토텔레스 잼과 slap jam에서 반복된 문제와 개선된 점을 비교 정리한다.",
         "pai": "templates/jam-postmortem.md 를 완성하고 K-MOOC 게임컨셉디자인 수강신청과 영상 재생이 정상 동작하는지 확인한다."
       },

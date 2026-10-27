@@ -75,30 +75,30 @@
     },
     "J4": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-27",
+        "level": "normal",
+        "planned_min": 3,
+        "actual_min": 3,
+        "note": "보고: 플랫포머·비주얼노벨을 오가다 졸라맨 게임으로 확정, AI로 스프라이트·에셋 생성. itch 업로드 후 메모리 누수(고도-itch 설정) 해결, 길드원 4명 피드백으로 핫픽스 약 20개, 설문·플레이 로그 자동 수집."
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-27",
+        "level": "normal",
+        "planned_min": 3,
+        "actual_min": 3,
+        "note": "보고: 캐릭터 주제를 보고 아이디어를 내 3일간 직접 플레이·수정 반복으로 잼 게임 제작, 효과음 찾기·대사 검토. 2명 플레이테스트에서 너무 어렵다는 평을 받아 쉽게 고쳤지만 여전히 어렵다는 반응."
       }
     },
     "J5": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-27",
+        "level": "normal",
+        "planned_min": 30,
+        "actual_min": 30,
+        "note": "보고: 잼 참가작 14개를 모두 봄. 얻은 건 적었고 'AI slop 게임 레퍼토리' 수집 정도. 별점·장면 메모는 보고에 없음."
       },
       "pai": {
         "status": "todo",
@@ -111,20 +111,20 @@
     },
     "R1": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-27",
+        "level": "normal",
+        "planned_min": 60,
+        "actual_min": 60,
+        "note": "10/27 스레드 대화로 복기를 마침: 검증 없이 떠오른 아이디어(비주얼 노벨)로 가서 시간을 잃음 → 제작 전 아이디어 검증을 필수로. 파이 제작과정 피드백(테스터 공통 지적을 안 받아들임)."
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-27",
+        "level": "normal",
+        "planned_min": 60,
+        "actual_min": 60,
+        "note": "10/27 스레드 대화로 복기를 마침: 3일간 플레이·수정 반복, 테스트에서 '어렵다' 평. 아안에게 '몸 좀 아껴', '둘 다 결과물까지 그려 보고 개발 시작' 제안."
       }
     },
     "J6": {
