@@ -180,9 +180,9 @@
         }
       ],
       "tasks": {
-        "common": "잼 마감 후 3일 동안 참가자끼리 평가한다. 각자 다른 참가자 게임 3개 이상과 서로의 게임을 테마/재미/아트/오디오/혁신으로 평가하고, 점수마다 근거 장면 한 줄을 남긴다. 남의 게임을 평가하는 것 자체가 분석 연습이다.",
-        "innollia": "평가 3개 이상 + 파이 게임 평가. 점수 근거에 [봤음]/[추측]을 구분해서 쓴다.",
-        "pai": "평가 3개 이상 + 아안 게임 평가. 각 점수에 \"어떤 장면 때문에\"를 한 줄씩 쓴다."
+        "common": "잼 페이지(아래 링크)의 참가작 목록에서 남의 게임을 골라 직접 해 보고, 5개 항목(테마·재미·아트·오디오·혁신)에 별점을 준다. 별점마다 '왜 이 점수인지' 장면 하나를 한 줄로 메모한다. 예: '재미 3점 — 두 번째 방부터 같은 패턴이 반복돼 지루했다.' 평가 기간은 3일이라 오늘 다 못 해도 된다.",
+        "innollia": "남의 게임 3개 이상 + 파이 게임 1개를 평가한다. 별점마다 장면 한 줄.",
+        "pai": "남의 게임 3개 이상 + 아안 게임 1개를 평가한다. 별점마다 '어떤 장면 때문에' 한 줄."
       },
       "weekly_review": false,
       "templates": [
@@ -201,9 +201,9 @@
       "min_version_minutes": 60,
       "materials": [],
       "tasks": {
-        "common": "templates/jam-postmortem.md 로 각자 따로 15분 쓴 뒤 비교한다. 초점: 일정 예상 vs 실제, 최소 플레이 범위, 받은 평가 점수와 댓글이 우리 예상과 맞았나. 서로의 게임에서 잘된 장치 1개씩 짚기. 끝에 slap jam(같이 만들기)에서 지킬 협업 규칙 CHANGE 1개를 정한다.",
-        "innollia": "templates/jam-postmortem.md 에 잘된 선택 2 + 아쉬운 선택 2 + KEEP/CHANGE/TRY를 먼저 독립 작성하고 일정 예상 vs 실제 차이를 정리한다.",
-        "pai": "templates/jam-postmortem.md 에 잘된 선택 2 + 아쉬운 선택 2 + KEEP/CHANGE/TRY를 먼저 독립 작성하고 다음 잼(slap jam)에 바로 적용할 CHANGE 1개를 적는다."
+        "common": "먼저 각자 templates/jam-postmortem.md 를 15분 동안 따로 쓴다(상대 것은 보지 않는다). 그다음 같이 보며 세 가지를 비교한다: ① 예상한 일정과 실제로 걸린 시간 ② 받은 점수·댓글이 예상과 맞았나 ③ 상대 게임에서 잘된 점 1개씩. 끝으로 같이 만드는 slap jam에서 바꿀 규칙 1개를 정한다(예: 'AI가 작업하는 동안 서로의 빌드를 해 본다').",
+        "innollia": "잘된 선택 2개, 아쉬운 선택 2개, 계속할 것·바꿀 것·해 볼 것(KEEP/CHANGE/TRY)을 쓰고, 일정 예상과 실제의 차이를 적는다.",
+        "pai": "잘된 선택 2개, 아쉬운 선택 2개, 계속할 것·바꿀 것·해 볼 것(KEEP/CHANGE/TRY)을 쓰고, slap jam에서 바로 바꿀 것 1개를 고른다."
       },
       "weekly_review": false,
       "templates": [
@@ -222,9 +222,9 @@
       "min_version_minutes": 3,
       "materials": [],
       "tasks": {
-        "common": "이번 잼은 둘이 한 게임을 만든다. 역할을 나누되 파이가 핵심 설계 결정 1개 이상을 맡는다. 10/28에 정한 CHANGE 규칙을 실제로 적용한다. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 시각/결정/이유/버린 것 1줄.",
-        "innollia": "templates/jam-postmortem.md '잼 전' 칸에 실험 가설과 CHANGE 적용 방법을 적고, 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "이번엔 둘이 게임 하나를 같이 만든다. 역할을 나누고, 핵심 설계 결정 중 1개 이상은 파이가 정한다. 10/28에 정한 규칙을 실제로 지킨다. 작업을 마칠 때 3분: 오늘 정한 것 하나, 왜 그렇게 정했는지, 그래서 버린 것을 한 줄로 남긴다(templates/jam-postmortem.md 2번 양식).",
+        "innollia": "시작 전에 templates/jam-postmortem.md '잼 전' 칸에 '이번 잼에서 시험해 볼 것' 한 줄과 10/28 규칙을 어떻게 지킬지 적는다.",
+        "pai": "파이가 맡을 설계 결정 1개를 오늘 정한다. 유튜브는 막힌 문제를 풀 때만, 5~15분짜리로 본다."
       },
       "weekly_review": false,
       "templates": [
@@ -243,9 +243,9 @@
       "min_version_minutes": 3,
       "materials": [],
       "tasks": {
-        "common": "slap jam 제작 진행(새 강의 0분). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "최소 플레이 범위 안에서 핵심 메커니즘 구현 및 확인. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "slap jam 2일차, 제작만 한다(새 강의 없음). 작업을 마칠 때 3분: 오늘 정한 것 하나, 왜 그렇게 정했는지, 그래서 버린 것을 한 줄로 남긴다(templates/jam-postmortem.md 2번 양식).",
+        "innollia": "AI가 만든 핵심 메커니즘을 직접 해 보고, 처음 정한 최소 범위 안에서 돌아가는지 확인한다.",
+        "pai": "어제 맡은 설계 결정이 게임에 들어갔는지 직접 해 보고 확인한다. 유튜브는 막힌 문제를 풀 때만, 5~15분짜리로 본다."
       },
       "weekly_review": false,
       "templates": [
@@ -264,9 +264,9 @@
       "min_version_minutes": 3,
       "materials": [],
       "tasks": {
-        "common": "slap jam 제작 진행, 새 강의 0분). 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "innollia": "과부하가 걸리지 않게 범위를 줄여서라도 완주 가능한 빌드로 정리. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록.",
-        "pai": "막힌 문제 해결용 유튜브(5~15분)만 허용. 세션 끝 3분 결정 로그(templates/jam-postmortem.md): 오늘 내린 설계 결정 1줄(시각/결정/이유/버린 것) 기록."
+        "common": "slap jam 3일차, 제작만 한다(새 강의 없음). 작업을 마칠 때 3분: 오늘 정한 것 하나, 왜 그렇게 정했는지, 그래서 버린 것을 한 줄로 남긴다(templates/jam-postmortem.md 2번 양식).",
+        "innollia": "벅차면 기능을 빼서라도 처음부터 끝까지 한 판이 되는 상태로 만든다.",
+        "pai": "처음 하는 사람처럼 한 판을 끝까지 해 보고, 막히는 곳 1개를 찾는다. 유튜브는 막힌 문제를 풀 때만, 5~15분짜리로 본다."
       },
       "weekly_review": false,
       "templates": [
@@ -439,7 +439,7 @@
       ],
       "tasks": {
         "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. 사전 10분 동안 MDA 논문 핵심을 확인한 뒤 We Become What We Behold를 플레이한다. 각자 먼저 분석을 쓴 뒤 '실제 규칙 하나 / 그 규칙에서 반복된 행동 / 감정이 언제 어떻게 바뀌었나'를 비교한다.",
-        "innollia": "templates/analysis-guide.md 로 서로 보지 않고 먼저 쓰기: MDA 렌즈에 맞춰 규칙(M)→반복 행동(D)→감정 변화 시점(A)을 장면 근거([봤음]/[느꼈음]/[추측])로 분석한다.",
+        "innollia": "templates/analysis-guide.md 로 서로 보지 않고 먼저 쓰기: MDA 렌즈에 맞춰 규칙(M)→반복 행동(D)→감정 변화 시점(A)을 장면 근거로(직접 본 것인지, 내 짐작인지 구분해서) 분석한다.",
         "pai": "templates/pai-worksheet.md 로 서로 보지 않고 먼저 쓰기: 실제 규칙 하나, 그 규칙 때문에 반복한 행동, 감정이 바뀐 순간을 채운다. 학교 시간 유튜브: 깊게 1편 + 훑기 1~2편, 깊게 본 것은 templates/youtube-card.md 로 디스코드에."
       },
       "weekly_review": false,
@@ -964,7 +964,7 @@
       ],
       "tasks": {
         "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. 우리 잼 게임(아리스토텔레스 또는 slap jam)을 처음 보는 사람 1명에게 해설 없이 플레이시키고 D15 질문지로 관찰한다(외부인이 없으면 Gravitas를 서로에게 처음 시켜 보고 '친구 간 예비 테스트'로 표시). 각자 먼저 기록한 뒤 비교한다.",
-        "innollia": "templates/analysis-guide.md 로 서로 보지 않고 먼저 쓰기: 테스터가 막힌 시점, 시도한 행동, 혼잣말/질문을 [봤음]으로 기록하고 사전 예상과 달랐던 원인을 분석한다.",
+        "innollia": "templates/analysis-guide.md 로 서로 보지 않고 먼저 쓰기: 테스터가 막힌 시점, 시도한 행동, 혼잣말/질문을 내 해석 없이 본 그대로 기록하고 사전 예상과 달랐던 원인을 분석한다.",
         "pai": "templates/pai-worksheet.md 로 서로 보지 않고 먼저 쓰기: D15 질문지를 사용해 막힌 시점·시도한 행동·말한 것을 그대로 적고 고쳐야 할 점 1개를 채운다. 학교 시간 유튜브: 깊게 1편 + 훑기 1~2편, 깊게 본 것은 templates/youtube-card.md 로 디스코드에."
       },
       "weekly_review": false,
