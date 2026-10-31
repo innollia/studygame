@@ -191,12 +191,12 @@
         "note": ""
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-10-31",
+        "level": "normal",
+        "planned_min": 15,
+        "actual_min": 15,
+        "note": "10/31 21:32 짧은 복기: 잘된 것 AI 영어 고치기, 아쉬운 것 에셋 뽑는 과정, 다음에 바꿀 것 '머리'(뜻 미확인)"
       }
     },
     "R3": {
