@@ -2,6 +2,7 @@
 
 입력: 스티키 목록 JSON [{"id", "text", "author"}] (파일 경로 또는 표준입력)
 출력: 판정 JSON [{"id", "kind", "maturity", "platform", "answers"}] (표준출력)
+묶음(겹친 스티키 여러 장)은 글을 이어 붙여 아이디어 하나로 판정한다. 다른 아이디어에 단 반응은 묶음 안에 같이 들어온다.
 
 판단은 Jev가, 결정은 아래 decide()가 한다. 질문 문구는 QUESTIONS에만 둔다.
 키는 환경변수 TYPESAFE_API_KEY에서 읽는다. 스티키 원문은 저장소에 남기지 않는다.
@@ -19,31 +20,15 @@ if hasattr(sys.stdout, "reconfigure"):
 
 API = "https://api.typesafe.ai/v1/systemone"
 MODEL = "jev-latest"
-YES, NO = 0.7, 0.3
+YES = 0.7
 
 QUESTIONS = {
-    "is_reaction": {
-        "type": "noul",
-        "instructions": "Is `sticky` a reaction to another sticky note rather than an idea of its own?",
-        "criteria": {
-            "true": "A short opinion about some other idea, like '가볍게 만들어볼만한듯' or '이거 재밌을 듯'",
-            "false": "The note proposes its own game, theme, mechanic, or topic, even in one word like '경마'",
-        },
-    },
     "is_image_prompt": {
         "type": "noul",
-        "instructions": "Does `sticky` ask an image generator to draw a picture?",
+        "instructions": "Is `sticky` only a request for an image generator, with no game idea in it?",
         "criteria": {
-            "true": "It is a drawing request, like '고양이 그림을 그려줘, 배경은 빼줘'",
-            "false": "It describes a game, a game topic, a mechanic, or a plan for making games",
-        },
-    },
-    "has_play": {
-        "type": "noul",
-        "instructions": "Does `sticky` say what the player actually does while playing?",
-        "criteria": {
-            "true": "A concrete player action or loop is written, like 'merge units that attack enemies' or 'brew the tea the customer hinted at'",
-            "false": "Only a topic, genre, mood, or platform is written, like '경마' or '로블록스 타워'",
+            "true": "Every part is a drawing request, like '고양이 그림을 그려줘, 배경은 빼줘'",
+            "false": "Some part describes a game, a game topic, a mechanic, or a plan for making games, even if a drawing request is attached",
         },
     },
     "detail": {
@@ -123,8 +108,6 @@ def ask(sticky):
 
 def decide(a):
     n = lambda k: a[k]["noul"]
-    if n("is_reaction") > YES or (n("is_reaction") > NO and n("has_play") < NO):
-        return {"kind": "reaction"}
     if n("is_image_prompt") > YES:
         return {"kind": "other"}
     # detail 2 = 핵심 동작 + 목표·변주·성장까지 있음

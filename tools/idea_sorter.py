@@ -103,7 +103,9 @@ async def sort(page):
         log("새 스티키 없음")
         return
     decisions = await asyncio.to_thread(classify, stickies)
-    slim = [{k: d[k] for k in ("id", "kind", "maturity", "platform") if k in d} for d in decisions]
+    ids = {s["id"]: s["ids"] for s in stickies}
+    slim = [{**{k: d[k] for k in ("id", "kind", "maturity", "platform") if k in d}, "ids": ids[d["id"]]}
+            for d in decisions]
     result = await page.eval(script({"mode": "apply", "from": [], "decisions": slim}))
     await asyncio.sleep(10)  # 바뀐 내용이 서버에 저장될 시간
     log(f"분류 {len(stickies)}개 → {result} " + json.dumps(slim, ensure_ascii=False))
