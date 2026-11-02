@@ -209,12 +209,12 @@
         "note": ""
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-11-02",
+        "level": "normal",
+        "planned_min": 55,
+        "actual_min": 55,
+        "note": "11/2 22:58 slap jam 복기 의견: 그래픽은 대충 때웠고, 대사는 바꿨지만 UI는 거의 안 바꿨음. K-MOOC 수강신청 확인은 보고에 없음."
       }
     },
     "D1": {
