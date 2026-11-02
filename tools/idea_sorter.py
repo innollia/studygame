@@ -96,7 +96,9 @@ async def sort(page):
     while not await page.eval(ready):
         if time.monotonic() > deadline:
             url = await page.eval("location.href")
-            raise RuntimeError("보드가 열리지 않음" + (" (로그인 필요: --login)" if "login" in url else ""))
+            state = await page.eval("[document.visibilityState, typeof figma, typeof figma !== 'undefined' && !!figma.currentPage].join(',')")
+            raise RuntimeError("보드가 열리지 않음" + (" (로그인 필요: --login)" if "login" in url else "")
+                               + f" [{url.split('?')[0]} | {state}]")
         await asyncio.sleep(3)
     stickies = json.loads(await page.eval(script({"mode": "read", "from": ["게임 아이디어 판"], "decisions": []})))
     if not stickies:
