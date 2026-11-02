@@ -22,5 +22,6 @@
 - 섹션은 성숙도: **쓸만한 아이디어**(핵심 동작 + 목표·변주·성장까지 있음) / **게임 아이디어 조각**. 색은 플랫폼: 노랑 인디, 빨강 로블록스, 파랑 모바일, 회색 어디든(여러 곳 또는 무관). 그림 프롬프트만 있는 묶음은 판에 둔다.
 - 질문 문구는 `tools/idea_sort.py`의 QUESTIONS, 결정 규칙은 decide(), 보드 조작은 `tools/figjam_ideas.js`.
 - 봇 전용 크롬 프로필(`%LOCALAPPDATA%\gamedesign-idea-bot`)을 실행 때만 켰다 끈다. 사용자 크롬은 쓰지 않는다. Figma 로그인이 풀리면 `python tools/idea_sorter.py --login`.
+- 로그인이 풀리면 보드 주소는 열리지만 `figma`가 없어서 "보드가 열리지 않음 [... | visible,undefined,false]"로 실패한다. `--login`으로 로그인한 뒤에는 그 창을 꼭 닫는다. 창이 열려 있으면 "봇 크롬에 연결 못 함"으로 실패한다.
 - 기록: `data/idea-sorter.log`(git 제외, 스티키 원문 없음).
 - 2026-11-01: 처음엔 스티키를 한 장씩 옮겨 묶음이 떨어졌다. 되돌린 뒤 묶음 단위로 고쳐 다시 정리했다.
