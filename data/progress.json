@@ -227,12 +227,12 @@
         "note": ""
       },
       "pai": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-11-03",
+        "level": "normal",
+        "planned_min": 75,
+        "actual_min": 75,
+        "note": "11/3 23:39 자기 할 일 '만들 게임 정하기' 완료 보고. 어떤 게임인지, D1 한 장 지도와 마케팅 쇼츠는 보고에 없음."
       }
     },
     "D2": {
