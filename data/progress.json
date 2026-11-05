@@ -255,12 +255,12 @@
     },
     "D3": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-11-05",
+        "level": "normal",
+        "planned_min": 75,
+        "actual_min": 75,
+        "note": "11/5 스레드에 We Become What We Behold MDA 분석(A·D·M) 제출, 매니저가 평가 답장. 파이 18:42 글은 다음 정기 처리에서 기록."
       },
       "pai": {
         "status": "todo",
