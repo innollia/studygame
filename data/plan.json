@@ -482,16 +482,10 @@
           "url": "https://edu.kocca.kr/edu/onlineEdu/openLecture/view.do?menuNo=500085&pSeq=1044",
           "note": "로그인 없이 바로 열림 확인됨.",
           "login_required": false
-        },
-        {
-          "title": "K-MOOC 게임컨셉디자인 3주 1-1·1-2",
-          "url": "https://www.kmooc.kr/view/course/detail/21313",
-          "note": "3주차 1-1, 1-2 차시 시청.",
-          "login_required": true
         }
       ],
       "tasks": {
-        "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. 에듀코카 '장르에 대한 이해'와 K-MOOC 3주 1-1·1-2를 보고, 서로 다른 장르 2개의 핵심 메커니즘 비교표를 함께 만든다.",
+        "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. 에듀코카 '장르에 대한 이해'를 보고, 서로 다른 장르 2개의 핵심 메커니즘 비교표를 함께 만든다.",
         "innollia": "장르 2개를 골라 핵심 규칙·승패 조건·플레이어 요구 능력을 비교표로 작성하고 파이의 최근 유튜브 카드 1개에 '근거 장면이 뭐야?'를 3분간 질문한다.",
         "pai": "좋아하는 장르 2개의 핵심 메커니즘 비교표를 채우고 각 장르에서 가장 중요한 선택 장면을 적는다."
       },
@@ -595,12 +589,6 @@
           "url": "https://ocw.mit.edu/courses/cms-608-game-design-spring-2014/pages/calendar/",
           "note": "1주차에 본 주제 위치 다시 확인.",
           "login_required": false
-        },
-        {
-          "title": "K-MOOC 게임컨셉디자인",
-          "url": "https://www.kmooc.kr/view/course/detail/21313",
-          "note": "1주차에 본 차시 위치 확인.",
-          "login_required": true
         }
       ],
       "tasks": {
@@ -659,12 +647,6 @@
       "min_version_minutes": 30,
       "materials": [
         {
-          "title": "K-MOOC 9주 1-1 '레벨 디자인의 개요와 기본 개념'",
-          "url": "https://www.kmooc.kr/view/course/detail/21313",
-          "note": "9주차 1-1 차시 시청.",
-          "login_required": true
-        },
-        {
           "title": "GMTK — Super Mario 3D World's 4 Step Level Design",
           "url": "https://www.youtube.com/watch?v=dBmIkEvEBtA",
           "note": "기승전결(소개→전개→비틀기→마무리) 4단계 레벨 설계 영상.",
@@ -672,7 +654,7 @@
         }
       ],
       "tasks": {
-        "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. K-MOOC 9주 1-1과 GMTK 레벨 4단계 영상을 보고, A0에서 분석했던 Deepest Sword에서 '소개→전개→비틀기' 장면을 찾아 정리한다(없으면 왜 없는지 기록).",
+        "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. GMTK 레벨 4단계 영상을 보고, A0에서 분석했던 Deepest Sword에서 '소개→전개→비틀기' 장면을 찾아 정리한다(없으면 왜 없는지 기록).",
         "innollia": "Deepest Sword의 구간별 기믹 변화를 소개→전개→비틀기 단계로 나누어 장면 근거를 적고, 내일 Celeste Classic 분석 기준을 잡는다.",
         "pai": "Deepest Sword에서 칼 길이가 늘어날 때마다 레벨이 어떻게 안전하게 가르치고 응용시켰는지(또는 안 했는지) 장면을 찾는다. 학교 시간 유튜브: 깊게 1편 + 훑기 1~2편, 깊게 본 것은 templates/youtube-card.md 로 디스코드에."
       },
@@ -728,20 +710,14 @@
       "min_version_minutes": 30,
       "materials": [
         {
-          "title": "K-MOOC 10주 1-1 'UI/UX 개요' & 1-2 'UI/UX의 설계 방법'",
-          "url": "https://www.kmooc.kr/view/course/detail/21313",
-          "note": "10주차 1-1, 1-2 차시 시청.",
-          "login_required": true
-        },
-        {
-          "title": "Design Doc — Great and Terrible UX Design in Games (선택)",
+          "title": "Design Doc — Great and Terrible UX Design in Games",
           "url": "https://www.youtube.com/watch?v=o86rWZlF30g",
-          "note": "선택 시청 자료.",
+          "note": "UI/UX 사례 영상 시청.",
           "login_required": false
         }
       ],
       "tasks": {
-        "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. K-MOOC 10주 1-1·1-2(및 선택 영상)를 보고, 우리 잼 게임 화면 하나의 정보 우선순위(가장 먼저 보여야 할 것 vs 덜 중요한 것)를 함께 점검한다.",
+        "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. Design Doc 영상을 보고, 우리 잼 게임 화면 하나의 정보 우선순위(가장 먼저 보여야 할 것 vs 덜 중요한 것)를 함께 점검한다.",
         "innollia": "우리 잼 게임 화면 캡처 하나를 놓고 정보 위계(시선 유도, 크기, 피드백 즉시성) 개선안 2가지를 적고, 파이 유튜브 카드 1개에 '근거 장면이 뭐야?'를 3분간 묻는다.",
         "pai": "우리 잼 게임 화면에서 플레이어가 지금 당장 알아야 하는 정보 1순위·2순위·3순위를 매기고 헷갈렸던 표시 1개를 고친다."
       },
