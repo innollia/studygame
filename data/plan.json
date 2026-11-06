@@ -448,28 +448,9 @@
       ]
     },
     {
-      "id": "X1",
+      "id": "D4",
       "date": "2026-11-06",
       "weekday": "금",
-      "type": "rest",
-      "phase": "pass1",
-      "week": 1,
-      "theme": "쉬는 날 (의무 없음)",
-      "minutes": 0,
-      "min_version_minutes": 0,
-      "materials": [],
-      "tasks": {
-        "common": "쉬는 날. 공부·유튜브·분석 의무 0분.",
-        "innollia": "휴식 (의무 없음).",
-        "pai": "휴식 (유튜브 카드 의무 없음)."
-      },
-      "weekly_review": false,
-      "templates": []
-    },
-    {
-      "id": "D4",
-      "date": "2026-11-07",
-      "weekday": "토",
       "type": "study",
       "phase": "pass1",
       "week": 1,
@@ -488,6 +469,25 @@
         "common": "2분 인출: 지난 회차 개념 하나를 자료 없이 말하고 원문과 맞추기. 에듀코카 '장르에 대한 이해'를 보고, 서로 다른 장르 2개의 핵심 메커니즘 비교표를 함께 만든다.",
         "innollia": "장르 2개를 골라 핵심 규칙·승패 조건·플레이어 요구 능력을 비교표로 작성하고 파이의 최근 유튜브 카드 1개에 '근거 장면이 뭐야?'를 3분간 질문한다.",
         "pai": "좋아하는 장르 2개의 핵심 메커니즘 비교표를 채우고 각 장르에서 가장 중요한 선택 장면을 적는다."
+      },
+      "weekly_review": false,
+      "templates": []
+    },
+    {
+      "id": "X1",
+      "date": "2026-11-07",
+      "weekday": "토",
+      "type": "rest",
+      "phase": "pass1",
+      "week": 1,
+      "theme": "쉬는 날 (의무 없음)",
+      "minutes": 0,
+      "min_version_minutes": 0,
+      "materials": [],
+      "tasks": {
+        "common": "쉬는 날. 공부·유튜브·분석 의무 0분.",
+        "innollia": "휴식 (의무 없음).",
+        "pai": "휴식 (유튜브 카드 의무 없음)."
       },
       "weekly_review": false,
       "templates": []
