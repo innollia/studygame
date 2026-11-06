@@ -273,12 +273,12 @@
     },
     "X1": {
       "innollia": {
-        "status": "rest",
-        "date": null,
-        "level": null,
+        "status": "done",
+        "date": "2026-11-06",
+        "level": "normal",
         "planned_min": 0,
-        "actual_min": null,
-        "note": ""
+        "actual_min": 0,
+        "note": "11/6 K-MOOC 게임컨셉디자인을 필요한 부분까지 다 봤다고 보고. 강의가 쓸모없다고 느껴 후반은 PPT 읽기로 넘어감. 쉬는 날 기록이고 실제 시간은 보고에 없음."
       },
       "pai": {
         "status": "rest",
