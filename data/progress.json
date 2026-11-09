@@ -309,12 +309,12 @@
     },
     "D5": {
       "innollia": {
-        "status": "todo",
-        "date": null,
+        "status": "skipped",
+        "date": "2026-11-09",
         "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "planned_min": 90,
+        "actual_min": 0,
+        "note": "11/9 호출: 어제 완전히 쉼. 밀린 회차라 11/25~ 보강 칸(B1)에서 한다."
       },
       "pai": {
         "status": "todo",
