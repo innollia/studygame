@@ -327,12 +327,12 @@
     },
     "D6": {
       "innollia": {
-        "status": "todo",
-        "date": null,
-        "level": null,
-        "planned_min": null,
-        "actual_min": null,
-        "note": ""
+        "status": "done",
+        "date": "2026-11-10",
+        "level": "normal",
+        "planned_min": 75,
+        "actual_min": 75,
+        "note": "11/9 공부(분석 A2) 다 했다고 보고. 추가로 전투 프로토타입을 만들며 코어루프 재미 찾기를 시도함."
       },
       "pai": {
         "status": "todo",
